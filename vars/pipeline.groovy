@@ -2,7 +2,7 @@
 import com.cleverbuilder.pipline
  //  println GlobalVars.foo
  // instantiate
-//def call(){ 
+def call(name){ 
 pl = new pipline()
 // work
 stage ('1'){
@@ -18,4 +18,4 @@ pl.build()
 //sayHello('alaa')
  // pipline(name: 'alaa')  
 }
-//}
+}
