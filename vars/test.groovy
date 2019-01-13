@@ -1,5 +1,5 @@
 #!/usr/bin/groovy
 
-def test() {
-  echo "Hello."
+def test(name) {
+  echo "Hello.${name}"
 }
