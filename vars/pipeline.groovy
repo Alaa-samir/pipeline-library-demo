@@ -2,7 +2,7 @@
 import com.cleverbuilder.pipline
  //  println GlobalVars.foo
  // instantiate
-def call(){ 
+//def call(){ 
 pl = new pipline()
 // work
 stage ('1'){
@@ -17,4 +17,5 @@ pl.test('Marge')
 //assert 'WonderMarge' ==  pl.test()
 sayHello('alaa')
  // pipline(name: 'alaa')  
-}}
+}
+//}
