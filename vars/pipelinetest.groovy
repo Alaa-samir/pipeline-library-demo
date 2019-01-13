@@ -1,4 +1,4 @@
-
+src/com/cleverbuilder/pipline.groovy
 import com.cleverbuilder.pipline
  //  println GlobalVars.foo
  // instantiate
