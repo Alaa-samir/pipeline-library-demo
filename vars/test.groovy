@@ -1,6 +1,6 @@
 #!/usr/bin/groovy
 
-def test(name) {
+def test1(name) {
   echo "Hello.${name}"
 }
 def build() {
