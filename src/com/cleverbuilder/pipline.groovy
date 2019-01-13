@@ -17,5 +17,8 @@ def deploy(env,app) {
   //...(rest of the params go here)
   echo 'stack-name ${env}_{app)'
 }
+def call(String name = 'human') {
+  echo "Hello, ${name}."
+}
 // AimTheory have a recommendation and explanation about this here
 return this
