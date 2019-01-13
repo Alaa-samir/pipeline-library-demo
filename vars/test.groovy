@@ -17,7 +17,7 @@ def deploy(env,app) {
   //--parameters \
     //ParameterKey=Env,ParameterValue=${env}
   //...(rest of the params go here)
-  echo "stack-name ${env}_{app)"
+  echo "stack-name ${env}_${app}"
 }
 def call(String name = 'human') {
   echo "Hello, ${name}."
